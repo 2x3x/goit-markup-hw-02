@@ -1,15 +1,24 @@
 :root{
---primary-text-color: rgba();
---title-text-color: ; 
---accent-color: ;
+--primary-text-color: #2e2f42;
+--secondary-text-color: #434455; 
+--primary-button: #4d5ae5;
+--html-button-color: #ffffff;
+--portfolio-button-color: #ffffff;
+--logo-color: #f4f4fd;
 }
 
+.list{
+  list-style:none;
+}
 
-body {
-  main-color: #434455;
+.link{
+  text-decoration:none;
+}
+
+body{
   font-family: Roboto, sans-serif;
-  background-color: #FFFFFF;
-  color: var (--primary-text-color);
+  background-color: var(--secondary-text-color);
+  color: var(--portfolio-button-color);
 
   
     .logo {
@@ -71,4 +80,3 @@ body {
     cursor: pointer;
     }
 
-    
