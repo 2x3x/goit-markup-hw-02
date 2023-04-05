@@ -5,6 +5,7 @@
 --html-button-color: #ffffff;
 --portfolio-button-color: #ffffff;
 --logo-color: #f4f4fd;
+--accent-color: #404bbf;
 }
 
 .list{
@@ -17,6 +18,7 @@
 
 body{
   font-family: Roboto, sans-serif;
+  font-family: Raleway, sans-serif;
   background-color: var(--secondary-text-color);
   color: var(--portfolio-button-color);
 
@@ -31,8 +33,7 @@ body{
     }
   
     .logo:{
-    hover:#4d5ae5 focus:;
-    color: var(--accent-color);
+    hover:#4d5ae5, focus:#4D5AE5;
     }
 
     .logo.link{
@@ -48,11 +49,22 @@ body{
     }
     
     .a href="./index.html:{
+      color: 
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
     }
+
+    .text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0,02em;
+      color: var(--slate)
+    }
+
+    /* section 2 */
 
     .features:{
     background-color:#2e2f42;
@@ -75,8 +87,19 @@ body{
     letter-spacing: 0.04em;
     color: #ffffff
     
-    hover: background-color: #404BBF;
-    focus:background-color: #404BBF;
+    hover: background-color: #404BBF, focus: #404BBF;
     cursor: pointer;
     }
 
+  /* section 3 */
+
+  .gallery {
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0,002em;
+    font-size: 36px;
+    color:var(--secondary-text-color)
+
+  }
