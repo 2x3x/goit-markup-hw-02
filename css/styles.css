@@ -1,67 +1,123 @@
 :root{
---primary-text-color: #2e2f42;
---secondary-text-color: #434455; 
---primary-button: #4d5ae5;
---html-button-color: #ffffff;
---portfolio-button-color: #ffffff;
---logo-color: #f4f4fd;
---accent-color: #404bbf;
+--primary-text-color: #2e2f42;    /*NAVY BLUE*/
+--secondary-text-color: #434455;  /*Slate*/
+
+--dark-bcground-color: #2E2F42; /*NAVY BLUE*/
+--background-color: #ffff;   
+
+--accent-color: #4d5ae5;       /*Iris*/
+--logo-studio-color: #2e2f42;   /*NAVY BLUE*/
+   
+--button-text-color: #ffffff; 
+--logo-color: #f4f4fd;       /*  */
+
+--nav-link-clr-normal: #2E2F42; /*NAVY BLUE*/
+--accent-button-color: #404bbf;  /*Ocean*/
+
+--nav-button-color: #F4F4FD;  /*  */
+--navhover-batton-color: #E7E9FC; /* CORNFLOWER*/
 }
 
-.list{
-  list-style:none;
-}
-
-.link{
-  text-decoration:none;
-}
-
-body{
+  body{
   font-family: Roboto, sans-serif;
-  font-family: Raleway, sans-serif;
-  background-color: var(--secondary-text-color);
-  color: var(--portfolio-button-color);
+  color: var(--secondary-text-color)
+  background-colorlor);
+  }
 
-  
-    .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
-  
-    .logo:{
-    hover:#4d5ae5, focus:#4D5AE5;
-    }
-
-    .logo.link{
-    text-decoration: none
-    }
-
-    .span:{
-    color: #2e2f42;
-    }
-
-    .list-style:{
-      none
-    }
+  /* Header section*/
     
-    .a href="./index.html:{
-      color: 
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-    }
+      .logo-header: {
+      font-weight: 800;
+      font-size: 18px;
+      color: var(--primary-button);
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      }
 
-    .text{
+      .logo-header .span: {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--logo-accent-color);
+        color: var(--primary-text-color);
+      
+      .logo-header: hover, :focus {#404BBF;
+      }
+
+  /* Navigation*/
+        
+      .list-menu{
+          list-style:none;
+          color: var(--primary-text-color);
+          background-color: var(--background-color);
+      }
+      .link-nav: {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;  
+       }
+      
+      /* Contacts*/
+
+        .address-list:{
+          color: var(--secondary-text-color)
+          text-decoration: none;
+        }
+    
+  /* Section 2*/
+  /*Effective Solutions for Your Business*/
+        .main-section: {
+        background-color: var(--dark-background-color)
+        text-color: var(--primary-text-color);
+       }
+     .main-title: { 
+       font-weight: 700;
+       font-size: 56px;
+       line-height: 1.07;
+       text-align: center;
+       letter-spacing: 0.02em;
+       color: #FFFFFF;
+       }
+
+       .main-button: {
+        text-color: var(--button-text-color);
+        background-color: var(--accent-color);
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        }
+
+        .btn:--acce ext{
       font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0,02em;
       color: var(--slate)
+
+      .link {
+        text-decoration:none;
+      }
+      
+    /* Button Text >Order Service<*/
+    
+    .main-button { 
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
     }
 
     /* section 2 */
@@ -87,8 +143,7 @@ body{
     letter-spacing: 0.04em;
     color: #ffffff
     
-    hover: background-color: #404BBF, focus: #404BBF;
-    cursor: pointer;
+    hover: background-color: {#404BBF, focus: #404BBF;
     }
 
   /* section 3 */
@@ -101,5 +156,16 @@ body{
     letter-spacing: 0,002em;
     font-size: 36px;
     color:var(--secondary-text-color)
+    }
 
-  }
+
+    .section-team:{
+      font-weight: 700;
+      line-height: 1.11;
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 0.02em;
+      font-size: 36px;
+      color: var(--navy-blue);
+}
+    }
