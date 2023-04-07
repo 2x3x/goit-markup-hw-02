@@ -21,13 +21,12 @@
   body {
   font-family: Roboto, sans-serif;
   color: var(--secondary-text-color);
-  .link .list {text-decoration:none;
-  list-style: none;
-   }
-
+  background-color: var(--light-background-color);
+  }
+   
   /* Header section*/
     
-    .page-nav :header-logo, :header-logo-link {
+      .header-page { 
       font-family: Raleway;
       font-weight: 800;
       font-size: 18px;
@@ -199,7 +198,14 @@
 
     .footer-section {
       background-color: var(--dark-bcground-color);
-    }
+        font-family: Raleway;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        align-items:center;
+        text-decoration:none;
+        }
 
     .footer-logo-link {
       color: var(--accent-color)
@@ -283,8 +289,15 @@
     /* footer section */
 
      .footer-section {
-      color: var(--dark-bcground-color);
-      }
+       color: var(--dark-bcground-color);
+        font-family: Raleway;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        align-items:center;
+        text-decoration:none;
+        }
 
       .footer-logo-link {
         color: var(--accent-color);
