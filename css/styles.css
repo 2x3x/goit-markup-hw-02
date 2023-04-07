@@ -84,11 +84,11 @@
   /* Section 2*/
   /*Effective Solutions for Your Business*/
 
-      .section .main-section {
+      .main-section {
         background-color: var(--dark-bcground-color);
         }
         
-       h1.main-title { 
+       .main-title { 
        color: var(--button-text-color);
        font-weight: 700;
        font-size: 56px;
@@ -117,8 +117,8 @@
 
     /* section 2 */
 
-   .features-list {
-    background-color:#2e2f42;
+   .features {
+    background-color: var(--light-background-color);
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -126,7 +126,7 @@
     list-style:none;
     }
 
-    .features .features-title {
+    .features-title {
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
@@ -143,8 +143,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style:none; 
-  color: var(--text-description-color);
-  }
+    }
 
     /*What we are doing. Section 3 */
 
@@ -171,12 +170,12 @@
 
      .section-title {
       font-weight: 700;
+      font-size: 36px;
       line-height: 1.11;
       text-align: center;
       text-transform: capitalize;
       text-decoration:none;  
       letter-spacing: 0.02em;
-      font-size: 36px;
       }
 
     .section-list-title {
