@@ -38,7 +38,8 @@
       
       .header-logo-link { 
       color: var(--accent-color);
-       }
+      text-decoration:none;
+      }
 
       .header-logo {
         color: var(--primary-text-color)
@@ -46,9 +47,10 @@
       
          /* Navigation*/
         
-       .menu-list {
-          list-style:none;
-          background-color: var(--light-background-color);
+       .menu-nav {
+         background-color: var(--light-background-color);
+         list-style:none;
+         text-decoration: none;
         }
       
         .link-nav {
@@ -65,13 +67,13 @@
         /* Contacts*/
 
         .address-item {
-          text-decoration: none;
+          font-family: Roboto;
           font-size: 16px;
           font-weight: 400;
           line-height: 1.5;
           align-items: center;
           letter-spacing: 0.02em;
-          text-decoration:none;
+          list-style:none;
           color: var(--secondary-text-color);
           }
         
@@ -82,11 +84,11 @@
   /* Section 2*/
   /*Effective Solutions for Your Business*/
 
-      .main-section {
-        color: var(--dark-bcground-color);
+      .section .main-section {
+        background-color: var(--dark-bcground-color);
         }
         
-       .main-title { 
+       h1.main-title { 
        color: var(--button-text-color);
        font-weight: 700;
        font-size: 56px;
@@ -115,22 +117,22 @@
 
     /* section 2 */
 
-    .features .features-list {
+   .features-list {
     background-color:#2e2f42;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    text-decoration:none;
+    list-style:none;
     }
 
-    .features-title {
+    .features .features-title {
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
       align-items: normal;
       letter-spacing: 0.02em;
-      text-decoration:none;
+      list-style:none;
       color: var(--primary-text-color);
       }
     
@@ -140,7 +142,7 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration:none; 
+    list-style:none; 
   color: var(--text-description-color);
   }
 
@@ -163,7 +165,8 @@
     /*Section 4 */
 
     .section-team {
-      color: var(--backgroung-color-sections);
+      background-color: var(--backgroung-color-sections);
+      list-style:none;
       }
 
      .section-title {
@@ -182,29 +185,28 @@
       line-height: 1.2;
       align-items: center;
       letter-spacing: 0.02em;
-      text-decoration:none;
+      list-style:none;
       color: var(--primary-text-color)
       }
 
     .section-list-txt {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    align-items: center;
-    text-decoration:none;  
-    color: var(--secondary-text-color);
-    }
+     font-size: 16px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 1.5;
+     align-items: center;
+     list-style:none;  
+     color: var(--secondary-text-color);
+      }
 
     .footer-section {
-      background-color: var(--dark-bcground-color);
+        background-color: var(--dark-bcground-color);
         font-family: Raleway;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.16;
         letter-spacing: 0.03em;
         align-items:center;
-        text-decoration:none;
         }
 
     .footer-logo-link {
@@ -221,7 +223,7 @@
       line-height: 1.5;
       align-items: center;
       letter-spacing: 0.02em;
-      text-decoration: none;
+      list-style: none;
       color: var(--background-color-sections);
       }
 
