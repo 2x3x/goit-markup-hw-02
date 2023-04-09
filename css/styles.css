@@ -285,12 +285,16 @@
       font-weight: 500;
       line-height: 1.5;
       align-items: normal;
-      letter-spacing: 0.02em;
       letter-spacing: 0,04em;
+      cursor: pointer;
       }
 
       .menu-batton1 :hover :focus :active{
       color: var(--accent-color);
+       }
+
+       .menu-batton1 :hover  :focus  :active{
+        background-color: var(--nav-link-clr-active);
        }
 
       .menu-button {
@@ -325,6 +329,12 @@
     
        /* section hero */
 
+       .main .section-list{
+        list-style: none;
+        text-decoration: none;
+        
+       }
+
        .main .section-title{
        color: var(--primary-text-color);
        font-size: 20px;
@@ -347,7 +357,7 @@
 
       .footer-section {
        color: var(--dark-bcground-color);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -356,7 +366,7 @@
         text-decoration:none;
         }
 
-      .footer .logo-link {
+      .footer .link-logo {
         color: var(--accent-color);
        }
 
