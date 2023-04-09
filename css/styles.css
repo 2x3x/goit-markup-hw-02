@@ -9,7 +9,7 @@
 --logo-studio-color: #2e2f42;   /*NAVY BLUE*/
 
 --button-text-color: #ffffff; 
---logo-color: #f4f4fd;       
+--white-color: #f4f4fd;       
 
 --nav-link-clr-normal: #434455; /*Slate*/
 --nav-link-clr-active: #404BBF; /*Ocean*/
@@ -23,6 +23,15 @@
   color: var(--secondary-text-color);
   background-color: var(--light-background-color);
   }
+
+   .buttons-cursor {
+    cursor: pointer;
+    }
+
+  * {
+    text-decoration:none;
+      list-style: none;
+  }
    
   /* Header section*/
     
@@ -33,12 +42,10 @@
       line-height: 1.16;
       letter-spacing: 0.03em;
       align-items:center;
-      text-decoration:none;
       }
       
       .header-logo-link { 
       color: var(--accent-color);
-      text-decoration:none;
       }
 
       .header-logo {
@@ -49,35 +56,34 @@
         
        .menu-nav {
          background-color: var(--light-background-color);
-         list-style:none;
-         text-decoration: none;
         }
-      
+
         .link-nav {
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-decoration:none;
         align-items: center;
-        color: var(--primary-text-color);
+        color: var(--nav-link-clr-normal);
        }
       
+       .link-nav :hover :focus :active {
+       color: var(--nav-link-clr-active);
+       }
         /* Contacts*/
 
-        .address-item {
+        .address-link {
+          color: var(--secondary-text-color);
           font-family: Roboto;
           font-size: 16px;
           font-weight: 400;
           line-height: 1.5;
           align-items: center;
           letter-spacing: 0.02em;
-          list-style:none;
-          color: var(--secondary-text-color);
           }
         
-        .address-item :hover :focus {
+        .address-link :hover :focus {
          color: var(--accent-color);
           } 
     
@@ -85,7 +91,7 @@
   /*Effective Solutions for Your Business*/
 
       .main-section {
-        background-color: var(--dark-bcground-color);
+        background-color: var(--dark-bcground-color) #2E2F42;
         }
         
        .main-title { 
@@ -103,6 +109,7 @@
     .main-button { 
     color: var(--button-text-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -112,7 +119,7 @@
     }
      
     .main-button :hover :focus {
-     color: #404BBF;
+     color: var(--nav-link-clr-active);
     }
 
     /* section 2 */
@@ -123,7 +130,6 @@
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    list-style:none;
     }
 
     .features-title {
@@ -132,7 +138,6 @@
       line-height: 1.2;
       align-items: normal;
       letter-spacing: 0.02em;
-      list-style:none;
       color: var(--primary-text-color);
       }
     
@@ -142,16 +147,11 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    list-style:none; 
     }
 
     /*What we are doing. Section 3 */
 
-  .gallery {
-    background-color: var(--background-color-team);
-  }
-   
-  .gallery-title { 
+   .gallery-title { 
     font-weight: 700;
     line-height: 1.11;
     text-align: center;
@@ -164,8 +164,7 @@
     /*Section 4 */
 
     .section-team {
-      background-color: var(--backgroung-color-sections);
-      list-style:none;
+      background-color: #F4F4FD;
       }
 
      .section-title {
@@ -174,28 +173,25 @@
       line-height: 1.11;
       text-align: center;
       text-transform: capitalize;
-      text-decoration:none;  
       letter-spacing: 0.02em;
       }
 
-    .section-list-title {
+    .section .list-title {
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
       align-items: center;
       letter-spacing: 0.02em;
-      list-style:none;
       color: var(--primary-text-color)
       }
 
-    .section-list-txt {
+    .section .list-txt {
      font-size: 16px;
      font-weight: 400;
      font-style: normal;
      line-height: 1.5;
      align-items: center;
-     list-style:none;  
-     color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
       }
 
     .footer-section {
@@ -213,7 +209,7 @@
     }
 
     .footer-logo {
-      color: var(--logo-color);
+      color: var(--background-color-sections);
     }
 
     .footer-txt {
@@ -222,70 +218,98 @@
       line-height: 1.5;
       align-items: center;
       letter-spacing: 0.02em;
-      list-style: none;
-      color: var(--background-color-sections);
+      color: var(--white-color);
       }
 
     /*Portfolio*/
+
+    .header-page { 
+      font-family: Raleway;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
+      align-items:center;
+      }
+      
+      .header .logo-link { 
+      color: var(--accent-color);
+      }
+
+      .header-logo {
+        color: var(--primary-text-color)
+       }
      
     .portfolio-section {
-      background-color: var(--background-color);
+      background-color: var(--light-background-color);
      }
      
     .menu-button1 {
       color: var(--button-text-color);
       background-color: var(--nav-link-clr-active);
+      box-shadow:  rgba(0, 0, 0, 0.1);
       font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
       align-items: normal;
       letter-spacing: 0.02em;
-      text-transform: none;
       letter-spacing: 0,04em;
       }
 
-      .menu-button1 :hover :focus {
-        color: var(--accent-color);
+      .menu-batton1 :hover :focus :active{
+      color: var(--accent-color);
        }
-  
-     .menu-button {
-      background-color: var(--background-color-sections);
+
+      .menu-button {
       font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
       align-items: normal;
       letter-spacing: 0.4em;
-      text-transform: none;
       color: var(--accent-color);
-      }    
+      }   
+      
+      .menu-batton :hover :focus {
+       color: var(--nav-link-clr-active);
+      }
 
+      /* Contacts*/
+
+      .address-link {
+       color: var(--secondary-text-color);
+       font-family: Roboto;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 1.5;
+       align-items: center;
+       letter-spacing: 0.02em;
+       }
+        
+      .address-link :hover :focus {
+        color: var(--accent-color);
+        } 
+    
     /* section hero */
 
-  .main-section-item {
-   background: #E5E5E5;
-  }
-
-  .main-section-title{
+  .main .section-title{
+    color: var(--primary-text-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     align-items: center;
     letter-spacing: 0.02em;
-    text-decoration:none;
-    color: var(--primary-text-color);
     }
 
-.main-section-txt {
+.main .section-txt {
+  color: var(--secondary-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--secondary-text-color);
-}
+  }
 
     /* footer section */
 
@@ -300,20 +324,19 @@
         text-decoration:none;
         }
 
-      .footer-logo-link {
+      .footer .logo-link {
         color: var(--accent-color);
        }
 
       .footer-logo { 
-        color: var(--logo-color);
+        color: var(--background-color-sections);
         }
 
-      .fotter-txt {
+      .footer-txt {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         align-items: center;
         letter-spacing: 0.02em;
-        text-decoration: none;
-        color: var(--backgroung-color-sections);
+        color: var(--white-color) #F4F4FD;;
         }
