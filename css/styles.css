@@ -51,18 +51,41 @@
       
       .header .logo-link { 
        color: var(--accent-color);
+       text-decoration: none;
         }
       .header-logo {
-       color: var(--primary-text-color)
+       color: var(--primary-text-color);
+       text-decoration: none;
        }
   
-      
-      .nav-link :focus :active {
-       color: var(--nav-link-clr-active);
-       }
         /* Contacts*/
+      
+        .nav-link :focus :active {
+         color: var(--nav-link-clr-active);
+          }
+   
+        .nav-list {
+         list-style: none;
+         }
 
-        .address-link {
+         .nav-link {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.5;
+          letter-spacing: 0.02em;
+          color:var(--primary-text-color);
+          text-decoration:none;
+         }
+
+         .nav-link  :hover  :focus {
+          color: var(--nav-link-clr-active);
+         }
+
+         .address-list {
+          font-style: normal;
+         }
+        
+         .address-link {
           color: var(--secondary-text-color);
           font-family: Roboto;
           font-size: 16px;
@@ -109,7 +132,7 @@
     }
      
     .main-button :hover :focus {
-     color: var(--nav-link-clr-active);
+     background-color: var(--nav-link-clr-active);
     }
 
     /* section 2 */
