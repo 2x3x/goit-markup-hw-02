@@ -30,8 +30,8 @@
 
   * {
     text-decoration:none;
-      list-style: none;
-  }
+    list-style: none;
+    }
    
   /* Header section*/
     
@@ -222,6 +222,22 @@
       }
 
     /*Portfolio*/
+  
+    .body {
+      font-family: Roboto, sans-serif;
+      color: var(--secondary-text-color);
+      background-color: var(--light-background-color);
+      }
+     
+    .buttons-cursor {
+      cursor: pointer;
+      }
+     
+    * {
+      text-decoration:none;
+      list-style: none;
+       }
+  
 
     .header-page { 
       font-family: Raleway;
@@ -288,7 +304,7 @@
        }
         
       .address-link :hover :focus {
-        color: var(--accent-color);
+        color: var(--nav-link-clr-active);
         } 
     
     /* section hero */
