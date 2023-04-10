@@ -132,12 +132,13 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.04em;
         align-items: center;
         cursor: pointer;
         }
      
        .main-button :hover :focus {
-        background-color: var(--nav-link-clr-active);
+        background-color: #404BBF;
         }
 
        /* section 2 */
