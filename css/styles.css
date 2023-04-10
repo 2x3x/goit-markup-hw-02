@@ -188,7 +188,7 @@
     /*Section 4 */
 
     .section-team {
-      background-color: var(--background-color-sections) #F4F4FD;
+      background-color: #F4F4FD;
       }
 
      .section-title {
@@ -210,15 +210,20 @@
       color: var(--primary-text-color)
       }
 
+      .section .list-item {
+       background-color: #FFFFFF;
+       }
+
     .section .list-txt {
+     color: var(--secondary-text-color);
      font-size: 16px;
      font-weight: 400;
      font-style: normal;
      line-height: 1.5;
      align-items: center;
-     color: var(--secondary-text-color);
      letter-spacing: 0.02em;
-      }
+     list-style: none;
+     }
 
       .footer-section {
        background-color: var(--dark-bcground-color);
