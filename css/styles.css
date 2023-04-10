@@ -41,6 +41,7 @@
       
      .header-nav {
       text-decoration: none;
+      list-style: none;
       }
       
       .header .logo-link { 
@@ -273,28 +274,42 @@
        }
   
       .header-page { 
+      background-color: var(--light-background-color);
+      
       font-family: Raleway, sans-serif;
       font-weight: 800;
       font-size: 18px;
       line-height: 1.17;
       letter-spacing: 0.03em;
-      align-items:center;
       }
-
-      .header-nav {
+      
+       .header-nav {
         text-decoration: none;
         text-transform: uppercase;
         }
   
       .header .logo-link { 
       color: var(--accent-color);
+      font-family: Raleway, sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      transform: uppercase;
       }
 
       .header-logo {
         color: var(--primary-text-color);
-       }
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        transform: uppercase;
+        }
 
       /* Navigation */
+      
       .nav-list {
       list-style: none;
       }
@@ -335,9 +350,9 @@
        background-color: var(--light-background-color);
        }
      
-      .menu-button1 {
+      .menu-button {
       color: var(--accent-color);
-      background-color: var(--nav-link-clr-active);
+      background-color: var(--white-color);
       box-shadow:  rgba(0, 0, 0, 0.1);
       font-family: "Roboto", sans-serif;
       font-size: 16px;
@@ -349,40 +364,19 @@
       cursor: pointer;
       }
 
-      .menu-batton1 :hover :focus {
-      color: var(--white-color);
+      .menu-batton :hover :focus {
+      color: var(--light-background-color);
        }
        
-       .menu-batton1 :hover  :focus {
-        background-color: var(--nav-link-clr-active);
-       }
-
-      .menu-button {
-      font-family: "Roboto", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.5;
-      align-items: normal;
-      text-align: center;
-      letter-spacing: 0.4em;
-      color: var(--accent-color);
-      cursor: pointer;
-      }   
-      
-      .menu-batton :hover :focus {
-       color: var(--nav-link-clr-active);
-      }
-
       .menu-batton :hover  :focus {
        background-color: var(--nav-link-clr-active);
        }
 
-       /* section hero */
+      /* section hero */
 
-       .main .section-list{
-        list-style: none;
-        text-decoration: none;
-
+      .main .section-list{
+       list-style: none;
+       text-decoration: none;
        }
 
        .main .section-title{
