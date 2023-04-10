@@ -277,19 +277,14 @@
   
       .header-page { 
       background-color: var(--light-background-color);
-      
       font-family: Raleway, sans-serif;
       font-weight: 800;
       font-size: 18px;
       line-height: 1.17;
       letter-spacing: 0.03em;
+      text-transform: uppercase;
       }
       
-       .header-nav {
-        text-decoration: none;
-        text-transform: uppercase;
-        }
-  
       .header .logo-link { 
       color: var(--accent-color);
       font-family: Raleway, sans-serif;
@@ -298,16 +293,18 @@
       line-height: 1.17;
       letter-spacing: 0.03em;
       transform: uppercase;
+      text-decoration:none;
       }
 
-      .header-logo {
-        color: var(--primary-text-color);
+       .header-logo {
+        color: var(--logo-studio-color);
         font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         transform: uppercase;
+        text-decoration:none;
         }
 
       /* Navigation */
@@ -316,7 +313,7 @@
       list-style: none;
       }
       
-      .nav-link {
+      .nav-link .link {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -324,8 +321,9 @@
       color:var(--primary-text-color);
       text-decoration:none;
       }
+      
       .nav-link :hover :focus {
-      color: var(--nav-link-clr-active);
+      color: #404bbf;
       }
        
        .address-list {
@@ -345,8 +343,10 @@
        }
       
       .address-link :hover :focus {
-      color: var(--nav-link-clr-active);
+      color: #404bbf;
        } 
+
+      /*section hero*/
 
       .portfolio-menu {
        background-color: var(--light-background-color);
@@ -366,15 +366,15 @@
       cursor: pointer;
       }
 
-      .menu-batton :hover :focus {
-      color: var(--light-background-color);
+      .menu-button :hover :focus {
+      color: #FFFFFF;
        }
        
-      .menu-batton :hover  :focus {
-       background-color: var(--nav-link-clr-active);
+      .menu-button :hover  :focus {
+       background-color: #404BBF;
        }
 
-      /* section hero */
+      /* main section */
 
       .main .section-list{
        list-style: none;
@@ -407,7 +407,6 @@
         
        .footer .logo-link {
         color: var(--accent-color);
-        text-transform: uppercase;
         font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
