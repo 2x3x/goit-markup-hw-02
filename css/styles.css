@@ -95,11 +95,11 @@
           font-style: normal;
           }
 
-          .address-list {
+          .contacts-list {
            list-style: none;
            }
           
-          .address-link { 
+          .contacts-link { 
           font-family: Roboto;
           font-size: 16px;
           font-weight: 400;
@@ -110,8 +110,8 @@
           color: var(--secondary-text-color);
           }
           
-          .address-link:hover, 
-          .address-link:focus {
+          .contacts-link:hover, 
+          .contacts-link:focus {
            color: #404bbf;
            } 
     
@@ -329,15 +329,15 @@
        
        /* Contacts */
 
-      .address-list {
+      .contacts-list {
       list-style: none;
       }
 
-      .address-link .link {
+      .contacts-link .link {
       text-decoration: none;
       }
 
-      .address-link .link { 
+      .contacts-link .link { 
        font-family: Roboto, sans-serif;
        font-size: 16px;
        font-weight: 400;
