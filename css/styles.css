@@ -365,9 +365,11 @@
       text-align: center;
       cursor: pointer;
       color: var(--accent-color);
-      background-color:var(--light-background-color);
       }
       
+      .button-menu {
+      background-color:var(--light-background-color);
+      }
 
       .button-menu:hover, 
       .button-menu:focus {
