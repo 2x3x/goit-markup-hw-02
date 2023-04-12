@@ -282,10 +282,6 @@
       
        /* Header logo */
        
-       .link {
-       text-decoration: none;
-       }
-      
        .header-web-logo { 
         font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -295,6 +291,11 @@
         text-transform: uppercase;
         color: var(--accent-color) #4d5ae5;
         }
+
+        .link {
+         text-decoration: none;
+         }
+   
        
         .header-studio-logo {
         font-family: "Raleway", sans-serif;
@@ -357,12 +358,12 @@
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
+      letter-spacing: 0.04em;
       align-items: normal;
       text-align: center;
-      letter-spacing: 0,04em;
       cursor: pointer;
       color: var(--accent-color);
-      background-color: var(--light-background-color) #F4F4FD;
+      background-color:var(--light-background-color) #F4F4FD;
       box-shadow:  rgba(0, 0, 0, 0.1);
       }
 
