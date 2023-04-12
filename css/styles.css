@@ -84,14 +84,13 @@
           text-decoration:none;
           }
 
-         .nav-link :hover :focus {
+         .nav-link:hover, .nav-link:focus {
           color: var#404bbf;
           }
 
           /* Contacts */
           
           .address-link { 
-          color: var(--secondary-text-color);
           font-family: Roboto;
           font-size: 16px;
           font-weight: 400;
@@ -99,9 +98,10 @@
           align-items: center;
           letter-spacing: 0.02em; 
           list-style: none;  
+          color: var(--secondary-text-color);
           }
-        
-          .address-link :hover :focus {
+          
+          .address-link:hover, .address-link:focus {
            color: #404bbf;
            } 
     
