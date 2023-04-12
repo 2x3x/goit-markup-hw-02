@@ -314,7 +314,7 @@
         list-style: none;
        }
       
-      .nav-link .link {
+      .nav-link {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -323,22 +323,22 @@
       text-decoration:none;
       }
 
-      .nav-link .link:hover, 
-      .nav-link .link:focus {
+      .nav-link:hover, 
+      .nav-link:focus {
       color: #404bbf;
       }
        
        /* Contacts */
 
-      .contacts-link .link {
+      .contacts-link {
       text-decoration: none;
       }
 
-      .contacts-list {
+       .list {
         list-style: none;
         }
   
-       .contacts-link .link { 
+       .contacts-link { 
        font-family: Roboto, sans-serif;
        font-size: 16px;
        font-weight: 400;
@@ -348,8 +348,8 @@
        color: var(--secondary-text-color);
        }
       
-      .contacts-link .link:hover, 
-      .contacts-link .link:focus {
+      .contacts-link:hover, 
+      .contacts-link:focus {
        color: #404bbf;
        } 
 
